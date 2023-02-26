@@ -16,29 +16,24 @@
       
   </head>
   <body onload="cargarNombre()">
-  <header class="header">
-    <nav class="nav">
-      <a class="logo" href="#">
-        <img src="Imagenes/ticmas.png" alt="logo" width="60" height="60">
-      </a>
+  <header class="row">
+    <nav class="container">
+      <div class="logo">
+        <img src="Imagenes/ticmas.png" alt="logo" width="60" height="60" id="logo">
+      </div>
       <div class="nombre-curso"><h4>Curriculum Vitae de: <strong><i>GISELA FRASCINO</i></strong></h4></div>
-      <button class="nav-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i>
-      </button> 
-      <ul class="nav-menu">
-        <li class="nav-menu-item nav-link"><a href="#">
-          <img src="Imagenes/linkedin (1).png" alt="logo-linkedin" width="45" height="45"></a></li>
-        <li class="nav-menu-item nav-link"><a href="#">
-        <img src="Imagenes/facebook.webp" alt="logo-facebook" width="45" height="45"></a></li>
-        <li class="nav-menu-item nav-link"><a href="#"><img src="Imagenes/whatsapp.png" alt="logo-whatsapp" width="45" height="45"></a></li>
-        <li class="nav-menu-item nav-link"><a href="#"><img src="Imagenes/instagram.png" alt="logo-instagram" width="45" height="45"></a></li>
-       
-      </ul>
+      <div class="menu">
+        <a href="#" class="menu-item nav-link"><img src="Imagenes/linkedin (1).png" alt="logo-linkedin" width="45" height="45"></a>
+        <a href="#" class="menu-item nav-link"><img src="Imagenes/facebook.webp" alt="logo-facebook" width="45" height="45"></a>
+        <a href="#" class="menu-item nav-link"><img src="Imagenes/whatsapp.png" alt="logo-whatsapp" width="45" height="45"></a>
+        <a href="#" class="menu-item nav-link"><img src="Imagenes/instagram.png" alt="logo-instagram" width="45" height="45"></a>
+      </div>
     </nav>
   </header>
   <main>
     <!--Seccion Principal-->
     <section id="seccion-principal">
-      <div class="container-fluid">
+      <div class="container-fluid" id="banner">
       
         <img src="Imagenes/Fondo.webp" alt="Fondo" width="100%" height="500px" class="img-fluid">
       </div>
@@ -49,7 +44,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h3 class="mostrar_info" id="titulo"></h3>
+            <h3 class="mostrar_titulo" id="titulo"></h3>
             <div>
               <h3 class="mostrar_info" id="informacion"></h3>
             </div>
