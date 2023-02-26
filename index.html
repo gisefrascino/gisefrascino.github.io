@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="W-UA-Compatible" content="IE-Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description"content="CV Gisela Frascino">
+      <meta name="author" content="Gisela Frascino">
+      <title>CV Gisela Frascino</title>
+      <link rel="stylesheet" type="text/css" href="styles.css"/>
+      <link rel="stylesheet" type="text/css" href="navbar.css"/>
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/0bc58e09d9.js" crossorigin="anonymous"></script>
+      
+  </head>
+  <body onload="cargarNombre()">
+  <header class="header">
+    <nav class="nav">
+      <a class="logo" href="#">
+        <img src="Imagenes/ticmas.png" alt="logo" width="60" height="60">
+      </a>
+      <div class="nombre-curso"><h4>Curriculum Vitae de: <strong><i>GISELA FRASCINO</i></strong></h4></div>
+      <button class="nav-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i>
+      </button> 
+      <ul class="nav-menu">
+        <li class="nav-menu-item nav-link"><a href="#">
+          <img src="Imagenes/linkedin (1).png" alt="logo-linkedin" width="45" height="45"></a></li>
+        <li class="nav-menu-item nav-link"><a href="#">
+        <img src="Imagenes/facebook.webp" alt="logo-facebook" width="45" height="45"></a></li>
+        <li class="nav-menu-item nav-link"><a href="#"><img src="Imagenes/whatsapp.png" alt="logo-whatsapp" width="45" height="45"></a></li>
+        <li class="nav-menu-item nav-link"><a href="#"><img src="Imagenes/instagram.png" alt="logo-instagram" width="45" height="45"></a></li>
+       
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!--Seccion Principal-->
+    <section id="seccion-principal">
+      <div class="container-fluid">
+      
+        <img src="Imagenes/Fondo.webp" alt="Fondo" width="100%" height="500px" class="img-fluid">
+      </div>
+      <div class="container-fluid">
+       
+        <img id="profile-img" src="Imagenes/Img_profile.webp" alt="Foto personal" class="img-fluid">
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h3 class="mostrar_info" id="titulo"></h3>
+            <div>
+              <h3 class="mostrar_info" id="informacion"></h3>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="botones_opcion col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <button class="mostrar" type="button" id="mostrar_nombre">
+                <i class="fa-sharp fa-solid fa-user"></i>
+              </button>
+              <button class="mostrar" type="button" id="mostrar_profesion">
+                <i class="fa-sharp fa-solid fa-address-card"></i>
+              </button>
+              <button class="mostrar" type="button" id="mostrar_correoe">
+                <i class="fa-sharp fa-solid fa-envelope"></i>
+              </button>
+              <button class="mostrar" type="button" id="mostrar_cumple">
+                <i class="fa-sharp fa-solid fa-calendar-days"></i>
+              </button>
+              <button class="mostrar" type="button" id="mostrar_direccion">
+                <i class="fa-sharp fa-solid fa-route"></i>
+              </button>
+              <button class="mostrar" type="button" id="mostrar_telefono">
+                <i class="fa-sharp fa-solid fa-phone"></i>
+              </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <h3 class="principal"><em>Información Profesional</em></h3>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <button class="mostrar_info_prof" type="button" id="mostrar_info_prof">MOSTRAR
+            </button> 
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          </div>
+        </div>
+        <div class="row">
+            <p id="text_info_prof" style="display: none;">
+            </p>
+        </div>            
+      </div>
+        
+    </section>
+<!--Seccion Experiencia Laboral-->
+    <section id="seccion-experiencia">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <h3><em>Experiencia Laboral</em></h3>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <button class="mostrar_experiencia" type="button" id="mostrar_experiencia">MOSTRAR
+            </button> 
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          </div>
+        </div>
+          <!--CUSPIDE-->
+        <article class="cuspide">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <h5 class="trabajo" id="empresa1"></h5>
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <p class="trabajo" id="puesto1"></p>
+              <p class="trabajo" id="periodo1"></p>
+            </div>
+           
+          </div>
+        </article>
+          <!--DISTRIBUIDORA-->
+        <article class="distribuidora">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <h5 class="trabajo" id="empresa2"></h5>
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <p class="trabajo" id="puesto2"></p>
+              <p class="trabajo" id="periodo2"></p>
+            </div>
+            
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--Seccion Educacion-->
+    <section id="seccion-educacion">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <h3><em>Educación</em></h3>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <button class="mostrar_educacion" type="button" id="mostrar_educacion">MOSTRAR
+            </button> 
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          </div>
+        </div>
+        <!--ARGENTINA PROGRAMA 4.0-->
+        <article class="argentina-programa-40">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <h5 class="educacion" id="institucion1"></h5>
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <p class="educacion" id="titulo1"></p>
+              <p class="educacion" id="tiempo1"></p>
+            </div>
+          </div>
+        </article>
+        <!--ARGENTINA PROGRAMA-->
+        <article class="argentina-programa">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <h5 class="educacion" id="institucion2"></h5>
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <p class="educacion" id="titulo2"></p>
+              <p class="educacion" id="tiempo2"></p>
+            </div>
+          </div>
+        </article>
+        <!--FACULTAD LENGUAS-->
+        <article class="facultad-lenguas">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <h5 class="educacion" id="institucion3"></h5>
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <p class="educacion" id="titulo3"></p>
+              <p class="educacion" id="tiempo3"></p>
+            </div>
+            
+          </div>
+        </article>
+        <!--CONSEJO INFORMATICA VISUAL-->
+         <article class="consejo-visual">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <h5 class="educacion" id="institucion4"></h5>
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <p class="educacion" id="titulo4"></p>
+              <p class="educacion" id="tiempo4"></p>
+            </div>
+          </div>
+        </article>
+          <!--MANUEL BELGRANO-->
+        <article class="manuel-belgrano">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <h5 class="educacion" id="institucion5"></h5>
+            </div>
+            
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <p class="educacion" id="titulo5"></p>
+              <p class="educacion" id="tiempo5"></p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--Seccion Skills-->
+    <section id="seccion-skills">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <h3><em>Hard and Soft Skills</em></h3>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <button class="mostrar_habilidad" type="button" id="mostrar_habilidad">MOSTRAR
+            </button> 
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          </div>
+        </div>
+      
+        <article class="skills" id="skills">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img src="imagenes/Grafico1.png" alt="trabajo en equipo" width="250px" height="250px" class="habilidad">
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img src="imagenes/Grafico2.png" alt="gestion" width="250px" height="250px" class="habilidad">
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img src="imagenes/Grafico3.png" alt="ingles" width="250px" height="250px" class="habilidad">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img src="imagenes/Grafico4.png" alt="adaptacion" width="250px" height="250px" class="habilidad">
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img src="imagenes/Grafico5.png" alt="aptitudes de organizacion" width="250px" height="250px" class="habilidad">
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img src="imagenes/Grafico6.png" alt="contacto con el cliente" width="250px" height="250px" class="habilidad">
+            </div>
+          </div>
+        </article>  
+      </div>
+    </section>
+    <!--Seccion Proyectos-->
+    <section id="seccion-proyectos">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <h3><em>Proyectos</em></h3>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <button class="mostrar_proyecto" type="button" id="mostrar_proyecto">MOSTRAR
+            </button> 
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          </div>
+        </div>
+       
+        <article class="proyecto-arg-programa">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <h5 class="proyecto" id="empresa-proyecto1"></h5>
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <p class="proyecto" id="temporada1"></p>
+              <p class="proyecto" id="proyecto1"></p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+ 
+    <script src="funciones.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    
+  </main>
+  </body>
+  <footer>
+    <span>Año 2023</span>
+  </footer>
+  </html>

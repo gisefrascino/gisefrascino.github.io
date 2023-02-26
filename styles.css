@@ -1,0 +1,157 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+    body {
+      padding:50px 20px 0;
+    }
+    .mostrar_info{
+      text-align: center;
+    }
+    .botones_opcion{
+      text-align: center;
+  }
+    .mostrar{
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 30px;
+      color:gray;
+      border-style:none;
+      height: 50px;
+      width: 70px;
+      background-color: white;
+      font-size: 48px;
+    }
+    .mostrar_info_prof{
+      margin-top: 145px;
+      margin-left: -230px;
+      color:cornflowerblue;
+      font-weight: bold;
+      border-style:none;
+      background-color:white;
+      font-size: 19px;
+    }
+
+    .mostrar_experiencia{
+      margin-top: 30px;
+      margin-left: -230px;
+      color:cornflowerblue;
+      font-weight: bold;
+      border-style:none;
+      background-color:white;
+      font-size: 19px;
+    }
+
+    .mostrar_educacion{
+      margin-top: 30px;
+      margin-left: -230px;
+      color:cornflowerblue;
+      font-weight: bold;
+      border-style:none;
+      background-color:white;
+      font-size: 19px;
+    }
+
+    .mostrar_habilidad{
+      margin-top: 30px;
+      margin-left: -230px;
+      color:cornflowerblue;
+      font-weight: bold;
+      border-style:none;
+      background-color:white;
+      font-size: 19px;
+    }
+
+    .mostrar_proyecto{
+      margin-top: 30px;
+      margin-left: -230px;
+      color:cornflowerblue;
+      font-weight: bold;
+      border-style:none;
+      background-color:white;
+      font-size: 19px;
+    }
+  h2 {
+      padding-top: 20px;
+  }
+
+  h3{
+    padding-top: 20px;
+  }
+
+  h3.principal{
+    margin-top: 120px;
+  }
+  h3.educacion{
+    padding: 0;
+  }
+
+  #text_info_prof{
+    margin-top: 20px;
+  }
+ 
+  p{
+      font-size: 17px;
+  }
+
+  a {
+      text-decoration: none;
+  }
+  #profile-img {
+      border-radius: 50%;
+      width: 250px;  
+      height:280px;  
+      margin-left: 450px;
+      margin-top: -140px;
+      z-index: 1;
+  }
+  img{
+    max-width: 100%;
+}
+  /*@media (min-width:576px){
+    #profile-img{
+      position: absolute;
+      width: 13%;
+    }
+  }*/
+  #seccion-experiencia{
+    margin-top: 60px;
+  }
+  #seccion-educacion{
+    margin-top: 20px;
+}
+  #seccion-skills {
+    margin-top: 20px;
+}
+  #seccion-proyectos{
+    margin-top: 20px;
+  }
+  .boutique-ef,
+  .cuspide,
+  .distribuidora,
+  .manuel-belgrano,
+  .facultad-lenguas,
+  .consejo-visual,
+  .argentina-programa,
+  .argentina-programa-40,
+  .proyecto-arg-programa { 
+    padding-top: 10px;
+  }
+  .skills {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    border-style: groove;
+  }
+  .proyecto-arg-programa{
+    padding-bottom: 100px;
+  }
+    
+  footer span{
+    margin-left: 1100px;
+    padding-bottom: 15px;
+    color: grey;
+  }
+  
