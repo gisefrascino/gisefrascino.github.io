@@ -1,45 +1,7 @@
-/*const persona={ "nombre":"Gisela Frascino",
-                "profesion":"Analista de Sistemas Informáticos",
-                "correo":"giselafrascino@gmail.com",
-                "cumple":"30 de julio",
-                "direccion":"Diaz de Solis 427",
-                "telefono":"(0351)153460356",
-                "info_prof":"Me desempeñé como empleada administrativa en mis ultimos trabajos, pero mi aspiración es trabajar en sistemas de ahora en adelante.",
-                "expe_laboral":[
-                    {
-                        "empresa":"Boutique EF",
-                        "puesto":"Vendedora y cajera",
-                        "periodo":"Temporada verano 1997"
-                    },
-                    {
-                        "empresa":"Cuspide Cia. Arg. Seguros S.A.",
-                        "puesto":"Empleada administrativa y de procuracion",
-                        "periodo":"Noviembre 2001 a Octubre 2009" 
-                    }
-                ]
-            };*/
-
-//const obj=JSON.parse(persona);
-
-//fetch('db.json')
-//   .then (data=>{return db.json()})
-//   .then (res=> {console.log(res)});
-
-//    .then((response) => response.json())
-//    .then((json) => console.log(json));
-
-/*const xmlhttp = new XMLHttpRequest();
-xmlhttp.onload = function() {
-  const myObj = JSON.parse(this.responseText);
-//  document.getElementById("informacion").innerHTML = myObj.nombre;
-};
-xmlhttp.open("GET", "db.json");
-xmlhttp.send();*/
-
 let valor_nombre=0;
 
 function cargarNombre(){
-    document.getElementById('mostrar_nombre').style.color='rgb(100,149,237)';
+    document.getElementById('mostrar_nombre').style.color='rgb(173, 91, 181)';
     document.getElementById('titulo').innerHTML="Mi nombre es:";
 
     const xmlhttp = new XMLHttpRequest();
@@ -71,7 +33,7 @@ function cargarNombre(){
 };
 
 document.getElementById('mostrar_nombre').addEventListener('mousemove', function(){
-    document.getElementById('mostrar_nombre').style.color='rgb(100,149,237)';
+    document.getElementById('mostrar_nombre').style.color='rgb(173, 91, 181)';
     document.getElementById('titulo').innerHTML="Mi nombre es:";
 
     const xmlhttp = new XMLHttpRequest();
@@ -84,7 +46,7 @@ document.getElementById('mostrar_nombre').addEventListener('mousemove', function
 });
 
 document.getElementById('mostrar_profesion').addEventListener('mousemove', function(){
-    document.getElementById('mostrar_profesion').style.color='rgb(100,149,237)';
+    document.getElementById('mostrar_profesion').style.color='rgb(173, 91, 181)';
     document.getElementById('titulo').innerHTML="Mi profesion es:";
 
     const xmlhttp = new XMLHttpRequest();
@@ -101,7 +63,7 @@ document.getElementById('mostrar_profesion').addEventListener('mousemove', funct
 });
 
 document.getElementById('mostrar_correoe').addEventListener('mousemove', function(){
-    document.getElementById('mostrar_correoe').style.color='rgb(100,149,237)';
+    document.getElementById('mostrar_correoe').style.color='rgb(173, 91, 181)';
     document.getElementById('titulo').innerHTML="Mi correo electrónico es:";
 
     const xmlhttp = new XMLHttpRequest();
@@ -118,7 +80,7 @@ document.getElementById('mostrar_correoe').addEventListener('mousemove', functio
 });
 
 document.getElementById('mostrar_cumple').addEventListener('mousemove', function(){
-    document.getElementById('mostrar_cumple').style.color='rgb(100,149,237)';
+    document.getElementById('mostrar_cumple').style.color='rgb(173, 91, 181)';
     document.getElementById('titulo').innerHTML="Mi cumpleaños es:";
 
     const xmlhttp = new XMLHttpRequest();
@@ -135,7 +97,7 @@ document.getElementById('mostrar_cumple').addEventListener('mousemove', function
 });
 
 document.getElementById('mostrar_direccion').addEventListener('mousemove', function(){
-    document.getElementById('mostrar_direccion').style.color='rgb(100,149,237)';
+    document.getElementById('mostrar_direccion').style.color='rgb(173, 91, 181)';
     document.getElementById('titulo').innerHTML="Mi dirección es:";
 
     const xmlhttp = new XMLHttpRequest();
@@ -152,7 +114,7 @@ document.getElementById('mostrar_direccion').addEventListener('mousemove', funct
 });
 
 document.getElementById('mostrar_telefono').addEventListener('mousemove', function(){
-    document.getElementById('mostrar_telefono').style.color='rgb(100,149,237)';
+    document.getElementById('mostrar_telefono').style.color='rgb(173, 91, 181)';
     document.getElementById('titulo').innerHTML="Mi teléfono es:";
 
     const xmlhttp = new XMLHttpRequest();

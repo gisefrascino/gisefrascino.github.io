@@ -80,20 +80,25 @@
       background-color:white;
       font-size: 19px;
     }
-  h2 {
-      padding-top: 20px;
-  }
-
-  h3{
+ 
+    h3{
     padding-top: 20px;
-  }
+  
+    }
 
-  h3.principal{
-    margin-top: 80px;
-  }
-  h3.educacion{
-    padding: 0;
-  }
+    h3.principal{
+     margin-top: 80px;
+    }
+  
+    h3.principal,
+    h3.expe,
+    h3.educa,
+    h3.habil,
+    h3.proye{
+      padding: 0px;
+      background-color:cornflowerblue;
+      color: white;
+    }
 
   #text_info_prof{
     margin-top: 20px;
@@ -116,6 +121,10 @@
   }
   img{
     max-width: 100%;
+}
+
+.ultimo{
+  text-decoration: underline;
 }
 
 @media(max-width:575px){
@@ -192,7 +201,7 @@
   footer span{
     margin-left: 10px;
     padding-bottom: 15px;
-    color: rgb(54, 52, 52)
+    color: rgb(42, 24, 44)
   }
 }
 @media (min-width:576px){
@@ -216,7 +225,7 @@
   }
 
   .mostrar_info_prof{
-    margin-top: 110px;
+    margin-top: 84px;
     margin-left: 0px;
     color:cornflowerblue;
     font-weight: bold;
@@ -226,7 +235,7 @@
   }
 
   .mostrar_experiencia{
-    margin-top: 25px;
+    margin-top: 3px;
     margin-left: 0px;
     color:cornflowerblue;
     font-weight: bold;
@@ -236,7 +245,7 @@
   }
 
   .mostrar_educacion{
-    margin-top: 25px;
+    margin-top: 3px;
     margin-left: 0px;
     color:cornflowerblue;
     font-weight: bold;
@@ -246,7 +255,7 @@
   }
 
   .mostrar_habilidad{
-    margin-top: 25px;
+    margin-top: 3px;
     margin-left: 0px;
     color:cornflowerblue;
     font-weight: bold;
@@ -256,7 +265,7 @@
   }
 
   .mostrar_proyecto{
-    margin-top: 25px;
+    margin-top: 3px;
     margin-left: 0px;
     color:cornflowerblue;
     font-weight: bold;
@@ -271,7 +280,7 @@
   footer span{
     margin-left: 10px;
     padding-bottom: 15px;
-    color: rgb(54, 52, 52)
+    color: rgb(42, 24, 44)
   }
 }
 
@@ -292,13 +301,62 @@
     width: 55px;
   }
 
+  .mostrar_info_prof{
+    margin-top: 84px;
+    margin-left: 0px;
+    color:cornflowerblue;
+    font-weight: bold;
+    border-style:none;
+    background-color:white;
+    font-size: 17px;
+  }
+
+  .mostrar_experiencia{
+    margin-top: 4px;
+    margin-left: 0px;
+    color:cornflowerblue;
+    font-weight: bold;
+    border-style:none;
+    background-color:white;
+    font-size: 17px;
+  }
+
+  .mostrar_educacion{
+    margin-top: 4px;
+    margin-left: 0px;
+    color:cornflowerblue;
+    font-weight: bold;
+    border-style:none;
+    background-color:white;
+    font-size: 17px;
+  }
+
+  .mostrar_habilidad{
+    margin-top: 4px;
+    margin-left: 0px;
+    color:cornflowerblue;
+    font-weight: bold;
+    border-style:none;
+    background-color:white;
+    font-size: 17px;
+  }
+
+  .mostrar_proyecto{
+    margin-top: 4px;
+    margin-left: 0px;
+    color:cornflowerblue;
+    font-weight: bold;
+    border-style:none;
+    background-color:white;
+    font-size: 17px;
+  }
   footer{
     background-color: rgb(166, 116, 173);;
   }
   footer span{
     margin-left: 10px;
     padding-bottom: 15px;
-    color: rgb(54, 52, 52)
+    color: rgb(42, 24, 44)
   }
 }
 
@@ -313,8 +371,8 @@
     z-index: 1;
   }
   .mostrar_info_prof{
-    margin-top: 110px;
-    margin-left: -120px;
+    margin-top: 84px;
+    margin-left: -122px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -323,8 +381,8 @@
   }
 
   .mostrar_experiencia{
-    margin-top: 25px;
-    margin-left: -120px;
+    margin-top: 4px;
+    margin-left: -122px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -333,8 +391,8 @@
   }
 
   .mostrar_educacion{
-    margin-top: 25px;
-    margin-left: -120px;
+    margin-top: 4px;
+    margin-left: -122px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -343,8 +401,8 @@
   }
 
   .mostrar_habilidad{
-    margin-top: 25px;
-    margin-left: -120px;
+    margin-top: 4px;
+    margin-left: -122px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -353,8 +411,8 @@
   }
 
   .mostrar_proyecto{
-    margin-top: 25px;
-    margin-left: -120px;
+    margin-top: 4px;
+    margin-left: -122px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -368,7 +426,7 @@
   footer span{
     margin-left: 10px;
     padding-bottom: 15px;
-    color: rgb(54, 52, 52)
+    color: rgb(42, 24, 44)
   }
 }
 
@@ -389,7 +447,7 @@
   }
 
   .mostrar_info_prof{
-    margin-top: 110px;
+    margin-top: 85px;
     margin-left: -200px;
     color:cornflowerblue;
     font-weight: bold;
@@ -399,7 +457,7 @@
   }
 
   .mostrar_experiencia{
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: -200px;
     color:cornflowerblue;
     font-weight: bold;
@@ -409,7 +467,7 @@
   }
 
   .mostrar_educacion{
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: -200px;
     color:cornflowerblue;
     font-weight: bold;
@@ -419,7 +477,7 @@
   }
 
   .mostrar_habilidad{
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: -200px;
     color:cornflowerblue;
     font-weight: bold;
@@ -429,7 +487,7 @@
   }
 
   .mostrar_proyecto{
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: -200px;
     color:cornflowerblue;
     font-weight: bold;
@@ -443,7 +501,7 @@
   footer span{
     margin-left: 10px;
     padding-bottom: 15px;
-    color: rgb(54, 52, 52)
+    color: rgb(42, 24, 44)
   }
 }
 
@@ -473,8 +531,8 @@
   }
 
   .mostrar_info_prof{
-    margin-top: 110px;
-    margin-left: -300px;
+    margin-top: 85px;
+    margin-left: -310px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -483,8 +541,8 @@
   }
 
   .mostrar_experiencia{
-    margin-top: 25px;
-    margin-left: -300px;
+    margin-top: 5px;
+    margin-left: -310px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -493,8 +551,8 @@
   }
 
   .mostrar_educacion{
-    margin-top: 25px;
-    margin-left: -300px;
+    margin-top: 5px;
+    margin-left: -310px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -503,8 +561,8 @@
   }
 
   .mostrar_habilidad{
-    margin-top: 25px;
-    margin-left: -300px;
+    margin-top: 5px;
+    margin-left: -310px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -513,8 +571,8 @@
   }
 
   .mostrar_proyecto{
-    margin-top: 25px;
-    margin-left: -300px;
+    margin-top: 5px;
+    margin-left: -310px;
     color:cornflowerblue;
     font-weight: bold;
     border-style:none;
@@ -527,7 +585,7 @@
   footer span{
     margin-left: 10px;
     padding-bottom: 15px;
-    color: rgb(54, 52, 52)
+    color: rgb(42, 24, 44)
   }
 }
 

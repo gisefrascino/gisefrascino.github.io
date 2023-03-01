@@ -24,7 +24,14 @@
     background-color: #cd9ef7;
     transition: 0.5s;
 }
-
+.nombre-curso {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+    line-height: 40px;
+    color:rgb(105, 38, 111) ;
+    text-shadow: 2px 2px black;
+  }
 
 @media (max-width:575px){
 .container{
@@ -43,10 +50,5 @@
     color: #83c5f7;
 }
 }
-.nombre-curso {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 0;
-    line-height: 40px;
-  }
+
   
